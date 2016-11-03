@@ -1,40 +1,110 @@
 ---
 ---
 
-/*
-*******
-None of these variable are being imported anywhere, they're just here for your convenience.
-*******
-*/
 
 body{
 	margin: 0;
+	font-family: cursive, sans-serif;
 }
 
-// Some Style Variables
-$primary-color: #36465f;
-$secondary-color: #464646;
-$error: #de3535;
-$success: #d5f5d7;
+.navbar-default {
+	background-color: #20232a;
+	border: none;
+}
 
-$max-width: 960px;
+.navbar-default .navbar-brand {
+	font-size: 22px;
+}
 
-// Breakpoints. Use these in your media queries.
-$babybear: 321px;
-$mamabear: 769px;
-$papabear: 1140px;
-$monsterbear: 1300px;
+.navbar-default .navbar-nav,
+.navbar-default .navbar-brand {
+	color: #f4f4ef;
+}
 
-$font-size: 16px;
-$font-family: Helvetica, sans-serif;
-$alt-font-family: monospace;
-$font-color: #353535;
+.navbar-default .navbar-nav>li>a,
+.navbar-default .navbar-nav>li>a:visited {
+	color: inherit;
+}
 
-/* Social Icons */
-$twitter: #78cdf0 !default;
-$facebook: #537bbd !default;
-$instagram: #517fa4 !default;
-$youtube: #d34836 !default;
-$snapchat: #fffc00 !default;
-$pinterest:	#cb2027 !default;
-$google: #dd4b39 !default;
+.navbar-default .navbar-nav>li>a:hover,
+.navbar-default .navbar-brand:hover {
+	color: #a01d26;
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+	background-color: #f4f4ef;
+}
+
+.navbar-default .navbar-toggle {
+	border: none;
+}
+
+
+.row {
+	background-color: #a01d26;
+;
+}
+
+.content {
+	padding-top: 70px;
+}
+
+.image-block {
+		// border: 1px solid red;
+		margin: 50px auto 20px auto;
+		width: 200px;
+		height: 200px;
+}
+
+.profile-pic {
+		border: 1px solid black;
+		height: 100%;
+		width: 100%;
+    border-radius: 100%;
+}
+
+.caption-text {
+	text-align: center;
+	color: #f4f4ef;
+}
+
+.caption-text p {
+	font-style: italic;
+}
+
+.project-thumb {
+	display: block;
+	margin: auto;
+	width: 200px;
+	height: 200px;
+}
+
+td {
+	border: 1px #70b8ff dashed;
+	width: 20%;
+	padding: 10px;
+}
+
+.site-footer {
+	margin-top: 100px;
+	padding-top: 20px;
+	height: 100px;
+	width: 100%;
+	background-color: #20232a;
+}
+
+.footer-col {
+	color: #f4f4ef;
+	width: 33%;
+	display: inline-block;
+}
+
+.post-list {
+  margin-left: 0;
+list-style: none;
+}
+
+.devicons {
+	font-size: 36px;
+	display: inline-block;
+}

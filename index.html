@@ -1,14 +1,57 @@
 ---
 layout: default
-title: "Home Page"
-fulltitle: "My New Website | Update Coming August 2004" 
-excerpt: This is the greatest website on earth. Share! Like! Subscribe! I'm dead inside!
 ---
-<!-- fulltitle: This overrides the default page title, which is "{{page.tite}} | {{site.title}}" -->
-<!-- excerpt: If this isn't set, it'll pull your {{site.tagline}} for meta description-->
+<div class="row">
+  <div class="container">
+    <div class="content">
+      <div class="image-block">
+        <img class="profile-pic" src="/assets/profile.jpg" alt="profile" />
+      </div>
+      <div class="caption-text">
+        <h4>Junior Developer</h4>
+        <p>Working with Ruby, Rails, Javascript, Node.js, PostgreSQL and more</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="container">
+  <h1>Projects</h1>
+  <table>
+    <thead colspan="4">
+
+    </thead>
+    <tbody>
+      <tr>
+
+        <td><img class="project-thumb" src="/assets/SpyAPI.png" alt="Spy API" />
+          <p>
+            A programmable JSON API for developers, built over three days.
+          </p>
+        </td>
+        <td><img class="project-thumb" src="/assets/roadtocode.png" alt="Road to Code" /></td>
+        <td><img class="project-thumb" src="/assets/yelpsample.png" alt="Yelp" /></td>
+        <td><img class="project-thumb" src="/assets/profile.jpg" alt="profile" /></td>
+      </tr>
+    </tbody>
+  </table>
 
 
-<section>
-  <h1>{{site.title}}</h1>
+
   <h4>{{site.tagline}}. Isn't your website beautiful?!</h4>
-</section>
+
+  <div class="post-area">
+    <h1 class="page-heading">Posts</h1>
+    <ul class="post-list">
+      {% for post in site.posts %}
+        <li>
+          <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+          <h3>
+            <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title | escape }}</a>
+          </h3>
+            <!-- {{ post.excerpt }} -->
+        </li>
+      {% endfor %}
+    </ul>
+  </div>
+</div>

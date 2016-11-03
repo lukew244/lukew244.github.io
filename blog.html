@@ -1,0 +1,23 @@
+---
+layout: default
+title: Blog
+permalink: /blog/
+---
+<div class="container">
+  <div class="content">
+    <div class="post-area">
+      <h1 class="page-heading">Posts</h1>
+      <ul class="post-list">
+        {% for post in site.posts %}
+          <li>
+            <h3>
+              <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title | escape }}</a>
+            </h3>
+            <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+            <!-- {{ post.excerpt }} -->
+          </li>
+        {% endfor %}
+      </ul>
+    </div>
+  </div>
+</div>
