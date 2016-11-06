@@ -4,63 +4,109 @@ layout: default
 
 <div class="intro">
   <p class="intro-text">
-    My name is Luke, and I am a full-stack junior developer and graduate of Maker's Academy. In a previous life I spent five years working in Parliament,
-    where I was a senior adviser and speechwriter. I built this site to showcase some of the things
-    I have been working on; for more information please get in touch using the contact link above.
+    My name is Luke, and I am a full-stack junior developer and graduate of
+    <a href="http://www.makersacademy.com">Maker's Academy</a>. In a previous life
+    I spent five years working in Parliament, where I was a senior adviser and speechwriter.
+    I built this site to showcase some of the things I have been working on;
+    for more information please get in touch using the contact link above.
   </p>
 </div>
 
 
-<h1>Projects</h1>
-<table>
-  <thead colspan="4"></thead>
-  <tbody>
-    <tr>
-      <td><img class="project-thumb" src="/assets/SpyAPI.png" alt="Spy API" />
-        <h4 class="project-name">Spy API</h4>
-        <p class="project-caption">
-          A development tool to mock API responses, so you can get back the data you need without inconsistencies or bombarding your third party APIs.
-          Built over three days using Ruby, Rails and PostgreSQL, with RSpec and Capybara for testing.
-        </p>
-        <div class="project-links">
-          <a href="https://github.com/spyAPI/spyAPI"><span class="devicons devicons-github_badge"></span></a>
-          <a href="http://spy-api.herokuapp.com/"><span class="devicons devicons-heroku"></span></a>
-        </div>
-      </td>
-      <td><img class="project-thumb" src="/assets/roadtocode.png" alt="Road to Code" />
-        <h4 class="project-name">Road to Code</h4>
-        <p class="project-caption">
-          An animated game teaching foundational coding concepts. A pure JavaScript and JQuery frontend
-          (plus Jasmine, Zombie and Chai for testing), with a Sinatra PostgreSQL server for tracking scores.
 
-        </p>
-        <div class="project-links">
-          <a href="https://github.com/road-to-code/road-to-code"><span class="devicons devicons-github_badge"></span></a>
-          <span class="devicons devicons-heroku"></span>
-        </div>
-      </td>
-      <td><img class="project-thumb" src="/assets/yelp.png" alt="Yelp" />
-        <h4 class="project-name">Yelp clone</h4>
-        <p class="project-caption">
-          A mock of restaurant review site Yelp made with Rails. Users can add ratings, reviews and endorsements,
-          upload images and sign in with Facebook.
-        </p>
-        <div class="project-links">
-          <a href="https://github.com/lukew244/yelp_clone"><span class="devicons devicons-github_badge"></span></a>
-        </div>
-      </td>
-      <td><img class="project-thumb" src="/assets/geckoboard.png" alt="code" />
-        <h4 class="project-name">Exchange rate API</h4>
-        <p class="project-caption">
-          An integration between two APIs, this app pulls in live exchange rate data
+<div class="row projects">
+  <h1 class="text-center">Projects</h1>
+
+  <div class="col-md-4">
+    <div class="panel panel-default">
+      <img class="img-responsive" src="./assets/spyapi.jpg" alt="">
+      <hr>
+      <div class="panel-body">
+        <p class="title">Spy API</p>
+        <span>A development tool to mock API responses to ensure consistent results.
+          Built over three days using Ruby, Rails and PostgreSQL, with RSpec and Capybara for testing.</span>
+      </div>
+      <div class="panel-footer">
+        <a href="https://github.com/spyAPI/spyAPI">
+          <span class="fa-stack fa-lg">
+            <i class="fa fa-circle fa-stack-2x"></i>
+            <i class="fa fa-github fa-stack-1x fa-inverse"></i>
+          </span>
+        </a>
+        <a href="https://spy-api.herokuapp.com/">
+          <span class="fa-stack fa-lg">
+            <i class="fa fa-circle fa-stack-2x"></i>
+            <i class="fa fa-globe fa-stack-1x fa-inverse"></i>
+          </span>
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <div class="col-md-4">
+    <div class="panel panel-default">
+      <img class="img-responsive" src="./assets/roadtocode.jpg" alt="">
+      <hr>
+      <div class="panel-body">
+        <p class="title">Road to Code</p>
+        <span>An animated game teaching foundational coding concepts. A pure JavaScript
+          and JQuery frontend (plus Jasmine, Zombie and Chai for testing), with a Sinatra
+          PostgreSQL server for tracking scores. </span>
+      </div>
+      <div class="panel-footer">
+        <a href="https://github.com/road-to-code/road-to-code">
+          <span class="fa-stack fa-lg">
+            <i class="fa fa-circle fa-stack-2x"></i>
+            <i class="fa fa-github fa-stack-1x fa-inverse"></i>
+          </span>
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <div class="col-md-4">
+    <div class="panel panel-default">
+      <img class="img-responsive" src="./assets/yelp.jpg" alt="">
+      <hr>
+      <div class="panel-body">
+        <p class="title">Yelp clone</p>
+        <span>A mock of restaurant review site Yelp made with Rails.
+          Users can add ratings, reviews and endorsements, upload images and sign in with Facebook. </span>
+      </div>
+      <div class="panel-footer">
+        <a href="https://github.com/lukew244/yelp_clone">
+          <span class="fa-stack fa-lg">
+            <i class="fa fa-circle fa-stack-2x"></i>
+            <i class="fa fa-github fa-stack-1x fa-inverse"></i>
+          </span>
+        </a>
+      </div>
+    </div>
+  </div>
+
+</div>
+
+<div class="row projects">
+
+  <div class="col-md-4">
+    <div class="panel panel-default">
+      <img class="img-responsive" src="./assets/geckoboard.jpg" alt="">
+      <hr>
+      <div class="panel-body">
+        <p class="title">Exchange rate API</p>
+        <span>An integration between two APIs, this app pulls in live exchange rate data
           to track the price of bitcoin over time. Aggregated data is pushed to another
-          API (Geckoboard) for display. Created with Node.js and RethinkDB database.
-        </p>
-        <div class="project-links">
-          <a href="https://github.com/lukew244/geckoboard"><span class="devicons devicons-github_badge"></span></a>
+          API (Geckoboard) for display. Created with Node.js and RethinkDB database. </span>
+      </div>
+      <div class="panel-footer">
+        <a href="https://github.com/lukew244/geckoboard">
+          <span class="fa-stack fa-lg">
+            <i class="fa fa-circle fa-stack-2x"></i>
+            <i class="fa fa-github fa-stack-1x fa-inverse"></i>
+          </span>
+        </a>
+      </div>
+    </div>
+  </div>
 
-        </div>
-      </td>
-    </tr>
-  </tbody>
-</table>
+</div>

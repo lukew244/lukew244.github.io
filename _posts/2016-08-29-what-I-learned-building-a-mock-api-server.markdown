@@ -8,9 +8,6 @@ tags: [API, Rails, Ruby, Bootstrap]
 
 This project was a three day sprint to address a problem a number of us had experienced firsthand. In the early stages of development, it's often not convenient to make frequent requests to the APIs your app will need. The response data might vary between requests; the information you want could be buried within other content; and you can quickly exceed API request limits. Our solution was Spy API ([see it on Heroku here](https://spy-api.herokuapp.com/)), a site that allows users to make API requests and receive their own, pre-configured JSON responses.
 
-
-![SpyAPI](/assets/SpyAPI.png){:class="post-img"}
-
 Here are three lessons I will take away for future projects:
 
 #### 1. Pick an appropriate MVP
