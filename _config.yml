@@ -1,7 +1,7 @@
 # Site settings
 title: Luke Webster
-tagline: "Hello world"
-url: "http://yourwebsite.com" # The base hostname & protocol for your site. Use it if you need absolute URL's
+tagline: "Personal portfolio site"
+url: "https://lukew244.github.io/" # The base hostname & protocol for your site. Use it if you need absolute URL's
 
 # Social
 twitter: twusername
