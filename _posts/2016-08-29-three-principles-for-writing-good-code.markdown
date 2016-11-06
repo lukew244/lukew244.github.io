@@ -7,7 +7,7 @@ categories:
 
 ![Code](/assets/code.jpg){:class="post-img" :margin-bottom="30px"}
 
-Granted, there is no magic trinity of ideas that can capture the art of writing 'good' code. Yet, of all the lessons I've learned about code craftsmanship at Makers Academy, these principles are among the most fundamental:
+Granted, there is no magic list that can capture the art of writing 'good' code. Yet, of all the lessons I've learned about code craftsmanship at Makers Academy, these principles are among the most fundamental:
 
 
 #### Good code is readable.
